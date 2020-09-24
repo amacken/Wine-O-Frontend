@@ -16,7 +16,7 @@ export default function App () {
 
   const getWines = async () => {
     try {
-      const response = await fetch('http://localhost:3000/wines');
+      const response = await fetch('https://wine-o-backend.herokuapp.com/');
       const data = await response.json()
       setWines(data)
      } catch(error){
