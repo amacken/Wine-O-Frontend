@@ -9,8 +9,7 @@ export default function Wines (props) {
                           <h3>{ wine.winery }</h3>
                           <h4>{ wine.name }</h4>
                           <h4>{ wine.vintage }</h4>
-                          <small>{wine.region }</small>
-                          <small>{wine.country }</small>
+                          <small>{wine.region}, {wine.country}</small>
                       </div>
                   )
               })}
