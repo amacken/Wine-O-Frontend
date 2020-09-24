@@ -37,7 +37,7 @@ export default function App () {
   const handleSubmit  = async (event) =>{
     event.preventDefault()
     try{
-      const response = await axios.post('http://localhost:3000/wines', formInputs)
+      const response = await axios.post('https://wine-o-backend.herokuapp.com/', formInputs)
       const createdWine = response.data
       await updateFormInputs({
         winery: '',
