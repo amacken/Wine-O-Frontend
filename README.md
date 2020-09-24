@@ -19,4 +19,4 @@ Approach Taken:
 Due to the extremely short time frame of this project, I tried to keep my project as simple as possible. I referenced materials and examples from our class and kept my styling simple enough to make sure I finished in enough time.
 
 Unsolved Issues:
-My app works fine on my localhost website, but I ran into issues when deploying on Heroku. The backend works fine, but I ran into issues getting my front end to communicate properly with the back end. If given more time I would also like to improve the styling and functionality of the project.
+If given more time I would like to improve the styling and functionality of the project.
