@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For your 4th project, you will be making a full CRUD app built with a React frontend and a Rails backend. You have 24 hours to complete this project.
 
-## Available Scripts
+MVP - minimum viable product
+Rails backend: Create a rails backend with all CRUD operations available across your models.
+Must have at least one model
+React frontend: Create a React frontend that consumes your Rails backend.
+Deploy online: Your app must be deployed online to Heroku
+Must be hosted on Github with frequent commits dating back to the very beginning of the project. Commit early, commit often!
 
-In the project directory, you can run:
 
-### `yarn start`
+Link to project on Heroku:
+https://wine-o-frontend.herokuapp.com/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Technologies Used:
+For the front end of this project, I used majority JavaScript and some CSS to give it style.
 
-### `yarn test`
+Approach Taken:
+Due to the extremely short time frame of this project, I tried to keep my project as simple as possible. I referenced materials and examples from our class and kept my styling simple enough to make sure I finished in enough time.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Unsolved Issues:
+My app works fine on my localhost website, but I ran into issues when deploying on Heroku. The backend works fine, but I ran into issues getting my front end to communicate properly with the back end. If given more time I would also like to improve the styling and functionality of the project.
